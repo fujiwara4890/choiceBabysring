@@ -1,0 +1,110 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+  background-color: #fdaeb4;
+}
+
+body {
+  font-family: "Yu gothic Medium","遊ゴシック Medium", "YuGothic", "遊ゴシック体", "ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color: #432;
+  margin-top: 5.5vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.title {
+  font-size: 150%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.page-header {
+  padding: 0 2vw 0 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #2c0101;
+  z-index: 10;
+}
+
+.page-header .logo {
+  margin-top: 2%;
+  width: 30%;
+}
+
+.page-header .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+  font-size: 2.2vw;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: bold;
+}
+
+.page-header .main-nav li {
+  margin-left: 36px;
+  white-space: nowrap;
+}
+
+.page-header .main-nav li .li-color {
+  text-decoration: none;
+  color: #ff8585;
+}
+
+.page-header .main-nav li .li-color:hover {
+  color: #0291aa;
+}
+
+.page-header .wrapper {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+table {
+  display: table;
+  width: 90%;
+  margin: 1% auto 10% auto;
+  text-align: center;
+}
+
+table tr th {
+  padding: 1%;
+  border: solid #a1a1ff 5px;
+  background-color: #fafaa5;
+}
+
+table tr td {
+  word-break: break-all;
+  padding: 1%;
+  border: solid #a1a1ff 5px;
+}
+
+.box {
+  padding: 2% 5% 5% 5%;
+}
+
+.search {
+  display: block;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=detail_serch.css.map */

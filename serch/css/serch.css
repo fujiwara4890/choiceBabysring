@@ -1,0 +1,182 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+  background-color: #fadbde;
+}
+
+body {
+  font-family: "Yu gothic Medium","遊ゴシック Medium", "YuGothic", "遊ゴシック体", "ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color: #432;
+  margin-top: 5.5vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-header {
+  padding: 0 2vw 0 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #2c0101;
+  z-index: 10;
+}
+
+.page-header .logo {
+  margin-top: 2%;
+  width: 30%;
+}
+
+.page-header .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+  font-size: 2.2vw;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: bold;
+}
+
+.page-header .main-nav li {
+  margin-left: 36px;
+  white-space: nowrap;
+}
+
+.page-header .main-nav li .li-color {
+  text-decoration: none;
+  color: #ff8585;
+}
+
+.page-header .main-nav li .li-color:hover {
+  color: #0bd;
+}
+
+.page-header .wrapper {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+label {
+  display: block;
+  position: relative;
+}
+
+.serch-box {
+  position: relative;
+  margin: 10vw auto 3vw;
+  text-align: center;
+  background-color: #ffffff;
+  width: 80vw;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80%;
+  border: solid gray 5px;
+  border-radius: 5%;
+}
+
+.serch-box img {
+  margin: 3%;
+  width: 8vw;
+}
+
+.serch-box .message {
+  margin: 2%;
+  font-size: 3vw;
+}
+
+.serch-box .box {
+  font-size: 2vw;
+  width: 50%;
+  margin: 5% auto;
+  text-align: left;
+}
+
+.serch-box .box .checkbox-sample {
+  width: 1.8vw;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center .next {
+  width: 5vw;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.questionbox {
+  margin: 2vw auto 3vw;
+  text-align: center;
+  background-color: #ffffff;
+  width: 80vw;
+  padding: 1%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80%;
+  border: solid gray 5px;
+  border-radius: 5%;
+}
+
+.questionbox .radiobutton {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.questionbox .radio-font {
+  font-size: 2vw;
+  margin: auto 3%;
+}
+
+.questionbox h3 {
+  text-align: center;
+  font-size: 3vw;
+  border-bottom: 1px black solid;
+  padding-bottom: 1%;
+}
+
+.questionbox .top-font {
+  margin: 3%;
+  font-weight: 700;
+  font-size: 2.0vw;
+}
+
+.questionbox .box {
+  width: 50%;
+  margin: 3% auto 1%;
+  text-align: left;
+}
+
+.questionbox .box .babysringSerch {
+  display: inline-block;
+  margin: 10% 30%;
+  font-size: 1.375rem;
+  background-color: #f3a5ac;
+  color: #fff;
+  border-radius: 5%;
+  padding: 6% 10%;
+}
+
+.questionbox .box .babysringSerch:hover {
+  background-color: #fc818c;
+}
+/*# sourceMappingURL=serch.css.map */

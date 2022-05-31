@@ -1,0 +1,144 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+  background-color: #fdaeb4;
+}
+
+body {
+  font-family: "Yu gothic Medium","遊ゴシック Medium", "YuGothic", "遊ゴシック体", "ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height: 1.7;
+  color: #432;
+  margin-top: 5.5vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page-header {
+  padding: 0 2vw 0 2vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #2c0101;
+  z-index: 10;
+}
+
+.page-header .logo {
+  margin-top: 2%;
+  width: 30%;
+}
+
+.page-header .main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+  font-size: 2.2vw;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: bold;
+}
+
+.page-header .main-nav li {
+  margin-left: 36px;
+  white-space: nowrap;
+}
+
+.page-header .main-nav li .li-color {
+  text-decoration: none;
+  color: #ff8585;
+}
+
+.page-header .main-nav li .li-color:hover {
+  color: #0291aa;
+}
+
+.page-header .wrapper {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.big-bg {
+  position: relative;
+}
+
+.big-bg p {
+  position: absolute;
+  color: #0090aa;
+  bottom: 12%;
+  left: 40%;
+  font-size: 3vw;
+}
+
+.home-img {
+  width: 100%;
+}
+
+.home-content {
+  position: relative;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.home-content .page-title {
+  font-size: 2.5rem;
+  width: 50vw;
+  margin: auto;
+  font-family: 'Kosugi Maru', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.news-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-contents aside {
+  width: 100%;
+  background-color: #ddfaff;
+  text-align: center;
+}
+
+.news-contents aside .sub-title {
+  font-size: 2rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+}
+
+.news-contents aside .sub-menu {
+  font-size: 1.5rem;
+  margin: 0 20px;
+  list-style: none;
+}
+
+.news-contents aside .sub-menu li {
+  border-bottom: 1px #ddd solid;
+}
+
+.news-contents aside .sub-menu a {
+  color: #432;
+  padding: 10px;
+  display: block;
+}
+
+.news-contents aside .sub-menu a:hover {
+  color: #0bd;
+}
+/*# sourceMappingURL=top.css.map */

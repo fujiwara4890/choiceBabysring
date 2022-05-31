@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="decription" content="あなたに合う抱っこひもを探します！" />
+  <title>選んで抱っこひも</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/serch.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="page-header wrapper bg-color">
+    <h1>
+      <a href="../top/top.html">
+        <img class="logo" src="../images/logo.png" alt="選んで抱っこひも" />
+      </a>
+    </h1>
+    <nav>
+      <ul class="main-nav">
+        <li><a class="li-color" href="../top/top.html">トップ</a></li>
+        <li><a class="li-color" href="serch.html">検索</a></li>
+        <li><a class="li-color" href="../Category/category.html">コラム</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="serch-box">
+    <img src="../images/dakkopikutoguram.jpg" alt="" />
+    <div class="message">あなたに合う抱っこひもがきっと見つかります</div>
+    <div class="box">
+      <div>
+        <svg class="checkbox-sample" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+          data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z">
+          </path>
+        </svg>
+        　7個の質問に答えるだけで簡単検索
+      </div>
+      <div>
+        <svg class="checkbox-sample" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+          data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z">
+          </path>
+        </svg>　すべて答えなくてOK
+      </div>
+      <div> <svg class="checkbox-sample" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+          data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z">
+          </path>
+        </svg>　1分で選べます</div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <a href="#question1">
+      <svg class="next" id="question1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down"
+        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+        <path fill="currentColor"
+          d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+        </path>
+      </svg><i class="fas fa-chevron-down fa-3x" id="question1"></i>
+    </a>
+  </div>
+
+  <div class="questionbox">
+
+
+    <form action="../console/console.php" method="post" class="box">
+
+      <!-- Q1 -->
+      <h3 id="question1"><b>Question.1</b></h3>
+      <p class="top-font">メーカーにこだわりはありますか？</p>
+      <label>
+        <input type="radio" name="q01" value="1" class="radiobutton">
+        <b class="radio-font">　日本のメーカー</b>
+      </label>
+      <label>
+        <input type="radio" name="q01" value="2" class="radiobutton">
+        <b class="radio-font">　海外メーカー</b>
+      </label>
+      <label>
+        <input type="radio" name="q01" value="0" class="radiobutton" checked>
+        <b class="radio-font">　特になし</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question2">
+          <svg class="next" id="question2" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question2"></i>
+        </a>
+      </div>
+
+      <!-- Q2 -->
+      <h3 id="question2"><b>Question.2</b></h3>
+      <p class="top-font">価格帯はどのくらいですか？</p>
+      <label>
+        <input type="radio" name="q02" value="1" class="radiobutton">
+        <b class="radio-font">　安い～標準</b>
+      </label>
+      <label>
+        <input type="radio" name="q02" value="2" class="radiobutton">
+        <b class="radio-font">　やや高い</b>
+      </label>
+      <label>
+        <input type="radio" name="q02" value="3" class="radiobutton">
+        <b class="radio-font">　高い</b>
+      </label>
+      <label>
+        <input type="radio" name="q02" value="0" class="radiobutton" checked>
+        <b class="radio-font">　特になし</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question3">
+          <svg class="next" id="question3" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question3"></i>
+        </a>
+      </div>
+
+
+      <!-- Q3 -->
+      <h3 id="question3"><b>Question.3</b></h3>
+      <p class="top-font"><b class="border-bottom border-dark">主な使用用途は何ですか？</b></p>
+      <label>
+        <input type="radio" name="q03" value="sleep" class="radiobutton">
+        <b class="radio-font">　寝かしつけ</b>
+      </label>
+      <label>
+        <input type="radio" name="q03" value="home" class="radiobutton">
+        <b class="radio-font">　家事</b>
+      </label>
+      <label>
+        <input type="radio" name="q03" value="outside" class="radiobutton">
+        <b class="radio-font">　散歩</b>
+      </label>
+      <label>
+        <input type="radio" name="q03" value="breastfeeding" class="radiobutton">
+        <b class="radio-font">　授乳</b>
+      </label>
+      <label>
+        <input type="radio" name="q03" value="0" class="radiobutton" checked>
+        <b class="radio-font">　特になし</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question4">
+          <svg class="next" id="question4" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question4"></i>
+        </a>
+      </div>
+
+      <!-- Q4 -->
+      <h3 id="question4"><b>Question.4</b></h3>
+      <p class="top-font"><b class="border-bottom border-dark">夫婦での使用を検討していますか？</b></p>
+      <label>
+        <input type="radio" name="q04" value="free" class="radiobutton">
+        <b class="radio-font">　検討している</b>
+      </label>
+      <label>
+        <input type="radio" name="q04" value="0" class="radiobutton" checked>
+        <b class="radio-font">　どちらともいえない</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question5">
+          <svg class="next" id="question5" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question5"></i>
+        </a>
+      </div>
+
+      <!-- Q5 -->
+      <h3 id="question5"><b>Question.5</b></h3>
+      <p class="top-font"><b class="border-bottom border-dark">体は固いほうですか？</b></p>
+      <label>
+        <input type="radio" name="q05" value="0" class="radiobutton">
+        <b class="radio-font">　どちらかというと柔らかい</b>
+      </label>
+      <label>
+        <input type="radio" name="q05" value="after" class="radiobutton">
+        <b class="radio-font">　どちらかというと固い</b>
+      </label>
+      <label>
+        <input type="radio" name="q05" value="0" class="radiobutton" checked>
+        <b class="radio-font">　どちらともいえない</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question6">
+          <svg class="next" id="question6" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question6"></i>
+        </a>
+      </div>
+
+      <!-- Q6 -->
+      <h3 id="question6"><b>Question.6</b></h3>
+      <p class="top-font"><b class="border-bottom border-dark">デザインやカラーにもこだわりたいですか？</b></p>
+      <label>
+        <input type="radio" name="q06" value="3" class="radiobutton">
+        <b class="radio-font">　こだわりたい</b>
+      </label>
+      <label>
+        <input type="radio" name="q06" value="0" class="radiobutton" checked>
+        <b class="radio-font">　どちらともいえない</b>
+      </label>
+
+      <div class="text-center">
+        <a href="#question7">
+          <svg class="next" id="question7" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+            data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z">
+            </path>
+          </svg><i class="fas fa-chevron-down fa-3x" id="question7"></i>
+        </a>
+      </div>
+
+      <!-- Q7 -->
+      <h3 id="question7"><b>Question.7</b></h3>
+      <p class="top-font"><b class="border-bottom border-dark">肩と腰負担をかけるならどっち？</b></p>
+      <label>
+        <input type="radio" name="q07" value="shoulder" class="radiobutton">
+        <b class="radio-font">　肩</b>
+      </label>
+      <label>
+        <input type="radio" name="q07" value="waist" class="radiobutton">
+        <b class="radio-font">　腰</b>
+      </label>
+      <label>
+        <input type="radio" name="q07" value="0" class="radiobutton" checked>
+        <b class="radio-font">　どちらでも大丈夫</b>
+      </label>
+
+
+      <input type="submit" class="babysringSerch" value="検索する">
+    </form>
+  </div>
+  </div>
+
+
+</body>
+
+</html>
